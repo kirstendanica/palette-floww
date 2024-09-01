@@ -140,3 +140,17 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.ghost {
+    opacity: 0.4;
+    background-color: #f4f3f2;
+    border: 2px dashed #2d3142;
+}
+
+/* Existing CSS from styles.css */
+@font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/Inter-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
